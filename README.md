@@ -1,11 +1,11 @@
 This Python script allows users to monitor the frame rate of a specified window on their Windows system. It captures frames from the selected window, calculates frame rates, and writes the data to a CSV file. The script also provides an option to stop monitoring by pressing Enter.
 
-Prerequisites
+Prerequisites:
 Python 3.x installed on your system.
 pywin32 library installed. You can install it using pip:
 Copy code
 pip install pywin32
-Usage
+Usage:
 Clone or download the repository to your local machine.
 Open a terminal or command prompt.
 Navigate to the directory containing the script.
@@ -14,7 +14,7 @@ Copy code
 python window_frame_rate_monitor.py
 Follow the on-screen instructions to select the window you want to monitor and provide a name for the CSV file to save data to.
 Press Enter at any time to stop monitoring.
-Features
+Features:
 Enumerate active windows and allow the user to choose the window to monitor.
 Capture frames from the selected window.
 Calculate frame rates based on captured frames.
